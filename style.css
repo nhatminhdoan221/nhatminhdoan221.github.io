@@ -8,7 +8,7 @@
 /* ===== HEADINGS ===== */
 h1 { font-size: 2rem; color: #f1f5f9; margin-bottom: 0.5rem; }
 h2 { font-size: 1.1rem; color: #7eb8f7; text-transform: uppercase;
-     letter-spacing: 1px; margin: 2rem 0 1rem; }
+     letter-spacing: 1px; margin: 0.5rem 0 0.75rem; }
 h3 { font-size: 1rem; color: #e2e8f0; margin-bottom: 0.25rem; }
 
 /* ===== PARAGRAPHS & LINKS ===== */
@@ -77,8 +77,8 @@ body {
 
 /* ===== SECTIONS ===== */
 section {
-  margin-bottom: 2rem;
-  padding: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1.25rem;
   background: #161b27;
   border: 1px solid #1e3a5f;
   border-radius: 8px;
