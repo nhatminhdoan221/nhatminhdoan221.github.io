@@ -2,7 +2,7 @@
 
 My personal portfolio and blog built from scratch using HTML and CSS.
 Live at: https://nhatminhdoan221.github.io
-[![Live at]](https://nhatminhdoan221.github.io/)
+(https://nhatminhdoan221.github.io/)
 
 
 ---
