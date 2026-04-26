@@ -22,6 +22,10 @@ header {
   border-bottom: 1px solid #1e3a5f;
   padding-bottom: 1.5rem;
   margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header p { color: #7eb8f7; font-size: 0.95rem; }
@@ -44,6 +48,43 @@ body {
   padding: 2rem;
   max-width: 750px;
   margin: 0 auto;
+}
+/* ===== NAVBAR ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0d1117;
+  border-bottom: 1px solid #1e3a5f;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #7eb8f7;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #7eb8f7;
 }
 
 /* ===== SOCIAL ICONS ===== */
